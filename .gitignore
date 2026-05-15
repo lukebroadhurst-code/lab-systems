@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# local static export preview staging
+/.serve/
+
 # production
 /build
 
