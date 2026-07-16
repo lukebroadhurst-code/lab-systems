@@ -195,6 +195,54 @@ export default function WorkPage() {
         </Container>
       </section>
 
+      {/* Ideal Edge */}
+      <section className="section-y hairline-t">
+        <Container width="narrow">
+          <MotionIn>
+            <SectionLabel number="04" label="Ideal Edge" />
+          </MotionIn>
+          <MotionIn delay={0.05}>
+            <Heading variant="h2" as="h2" className="mt-6 mb-12">
+              The founder stopped being the pipeline.
+            </Heading>
+          </MotionIn>
+
+          <CaseStudy
+            intro={[
+              {
+                label: "The client",
+                body: "Ideal Edge is an early-stage software company based in Leamington Spa, building a people-performance platform for UK employers. Incorporated in September 2025, it sells to HR and People leaders at firms large enough to feel attrition as a line item.",
+              },
+              {
+                label: "The brief",
+                body: "Every deal so far had arrived through the founder's network, which is the standard early-stage engine and the standard early-stage ceiling. Ideal Edge needed a repeatable route to qualified conversations before the network thinned out, a pricing architecture to convert them, and infrastructure a founding team of 2 could run without an agency on retainer.",
+              },
+            ]}
+            system={{
+              label: "The growth system",
+              items: [
+                "Prospect sourcing and enrichment through Apollo, with a verification layer before any send",
+                "Cold email on dedicated sending domains, warmed for 30 days, keeping the main brand domain clean for the deals themselves",
+                "Email-first sequences, 1 question per email, with LinkedIn outreach picking up contacts after the email sequence completes",
+                "HubSpot pipelines with explicit qualification gates, so a reply and a deal never get confused",
+                "Every reply routed into a shared Slack channel the minute it lands",
+              ],
+            }}
+            blocks={[
+              {
+                label: "The strategy layer",
+                body: "An offer and pricing architecture built around a founding-customer tier, delivered as a strategy document in Ideal Edge's own design system: segment focus, the trade (locked pricing in exchange for case-study rights and references), and the outreach hooks to open with.",
+              },
+              {
+                label: "The detail worth stealing",
+                body: "The targeting model ranks prospects by hiring velocity, read from the job ads they post themselves, because a company advertising 12 roles in a quarter is already paying for the problem Ideal Edge solves. The first email quotes the prospect's own careers page back to them.",
+              },
+            ]}
+            footer="Status. The engine is going live now, with capacity for 400+ emails a day once domains are fully warmed. Campaign numbers will be published here as they mature."
+          />
+        </Container>
+      </section>
+
       {/* CTA */}
       <section className="section-y hairline-t">
         <Container width="narrow">

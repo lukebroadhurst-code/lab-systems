@@ -22,6 +22,10 @@ export function SectionLabel({
       )}
       {...rest}
     >
+      <span
+        aria-hidden
+        className="inline-block h-1.5 w-1.5 rounded-full bg-accent"
+      />
       {number ? (
         <span
           className={cn(

@@ -20,6 +20,13 @@ export function Footer() {
             <p className="font-serif italic text-[1.05rem] text-graphite">
               Strategy. AI. Scale.
             </p>
+
+            <div className="relative h-[7px] w-[150px]" aria-hidden>
+              <span className="absolute left-0 right-0 top-1/2 h-px -translate-y-1/2 bg-line" />
+              <span className="absolute left-[22px] top-1/2 h-1.5 w-1.5 -translate-y-1/2 rounded-full border border-graphite bg-paper" />
+              <span className="absolute left-[78px] top-1/2 h-1.5 w-1.5 -translate-y-1/2 rounded-full border border-graphite bg-paper" />
+              <span className="absolute right-0 top-1/2 h-[7px] w-[7px] -translate-y-1/2 rounded-full bg-accent" />
+            </div>
             <a
               href="mailto:hello@labsystems.co"
               className="text-[0.95rem] text-ink underline decoration-line underline-offset-4 hover:decoration-ink transition-colors w-fit"
