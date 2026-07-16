@@ -43,9 +43,8 @@ export function Footer() {
           </nav>
         </div>
 
-        <div className="mt-14 pt-6 hairline-t flex flex-col gap-2 md:flex-row md:items-center md:justify-between text-[0.85rem] text-graphite">
-          <p>© {new Date().getFullYear()} LAB Systems Ltd. Registered in England.</p>
-          <p>UK companies, 50 to 500 employees.</p>
+        <div className="mt-14 pt-6 hairline-t text-[0.85rem] text-graphite">
+          <p>© 2026 LAB Systems</p>
         </div>
       </Container>
     </footer>

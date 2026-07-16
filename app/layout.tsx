@@ -7,15 +7,17 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://labsystems.co"),
   title: {
-    default: "LAB Systems. Strategy. AI. Scale.",
+    default:
+      "LAB Systems | Revenue systems and AI infrastructure for the UK mid-market",
     template: "%s, LAB Systems",
   },
   description:
-    "Brand frameworks and AI infrastructure for UK companies that want their marketing and sales teams to move faster without losing the voice.",
+    "Outbound engines, sales and brand frameworks, and custom AI tooling for UK companies of 50 to 500 people. Built with your team in 11 to 14 weeks, then handed over.",
   openGraph: {
-    title: "LAB Systems. Strategy. AI. Scale.",
+    title:
+      "LAB Systems | Revenue systems and AI infrastructure for the UK mid-market",
     description:
-      "Brand frameworks and AI infrastructure for UK companies that want their marketing and sales teams to move faster without losing the voice.",
+      "Outbound engines, sales and brand frameworks, and custom AI tooling for UK companies of 50 to 500 people. Built with your team in 11 to 14 weeks, then handed over.",
     type: "website",
     locale: "en_GB",
   },

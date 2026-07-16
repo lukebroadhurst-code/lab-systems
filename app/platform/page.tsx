@@ -85,6 +85,12 @@ export default function PlatformPage() {
                 grows.
               </p>
             </MotionIn>
+            <MotionIn delay={0.25}>
+              <p className="text-ink">
+                The platform is the productised version of the system running at
+                Rooost today.
+              </p>
+            </MotionIn>
           </div>
         </Container>
       </section>

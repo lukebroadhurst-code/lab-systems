@@ -4,9 +4,12 @@ import { SectionLabel } from "@/components/section-label";
 import { MotionIn } from "@/components/motion-in";
 
 const stats = [
-  { value: "8 to 12 hrs", label: "saved per person, per week" },
-  { value: "100%", label: "brand consistency at scale" },
-  { value: "3 to 4 months", label: "typical payback period" },
+  { value: "400+", label: "outbound emails a day, once domains are warmed" },
+  { value: "1", label: "source of truth for voice, playbook, and personas" },
+  {
+    value: "11 to 14 weeks",
+    label: "from audit to handover, team trained on the way out",
+  },
 ];
 
 export function Impact() {
@@ -16,11 +19,11 @@ export function Impact() {
         <div className="flex flex-col gap-16">
           <div className="grid gap-8 md:grid-cols-[1fr_2fr] md:gap-20 items-end">
             <MotionIn>
-              <SectionLabel number="05" label="The impact" />
+              <SectionLabel number="07" label="The impact" />
             </MotionIn>
             <MotionIn>
               <Heading variant="h2" className="max-w-[22ch]">
-                What changes once the system is in place.
+                The system, in plain numbers.
               </Heading>
             </MotionIn>
           </div>

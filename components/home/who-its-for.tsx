@@ -62,7 +62,7 @@ export function WhoItsFor() {
         <div className="flex flex-col gap-14">
           <div className="grid gap-8 md:grid-cols-[1fr_2fr] md:gap-20 items-end">
             <MotionIn>
-              <SectionLabel number="08" label="Who it's for" />
+              <SectionLabel number="10" label="Who it's for" />
             </MotionIn>
             <MotionIn>
               <Heading variant="h2" className="max-w-[22ch]">
@@ -82,8 +82,7 @@ export function WhoItsFor() {
 
           <MotionIn delay={0.1}>
             <p className="hairline-t pt-6 text-[0.95rem] text-graphite">
-              We don&rsquo;t work in financial services, healthcare, or
-              government.
+              We stay out of regulated financial services and government.
             </p>
           </MotionIn>
         </div>

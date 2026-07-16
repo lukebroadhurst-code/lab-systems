@@ -39,7 +39,7 @@ export function ApproachTeaser() {
         <div className="grid gap-16 md:grid-cols-[1fr_1fr] md:gap-24 items-start">
           <div className="flex flex-col gap-8">
             <MotionIn>
-              <SectionLabel number="06" label="Approach" />
+              <SectionLabel number="08" label="Approach" />
             </MotionIn>
             <MotionIn>
               <Heading variant="h2">
@@ -49,11 +49,14 @@ export function ApproachTeaser() {
               </Heading>
             </MotionIn>
             <MotionIn delay={0.05}>
-              <p className="text-[1.1875rem] leading-[1.55] text-graphite max-w-[44ch]">
+              <p className="text-[1.1875rem] leading-[1.55] text-graphite max-w-[46ch]">
                 Engagements run for 11 to 14 weeks. We work alongside your
                 leadership and the teams who will use the system every day, so
                 the frameworks reflect how your business actually operates and
                 the infrastructure fits how your people actually work.
+                Everything is built inside your accounts, your CRM, and your
+                documentation, so the engine keeps running long after the
+                engagement ends.
               </p>
             </MotionIn>
             <MotionIn delay={0.1}>

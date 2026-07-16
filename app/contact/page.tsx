@@ -44,23 +44,17 @@ export default function ContactPage() {
           </MotionIn>
 
           <MotionIn delay={0.05}>
-            <div className="mt-8 hairline-b border-line border bg-fog rounded-[4px] p-8 md:p-12 flex flex-col items-start gap-4">
-              {/* TODO: embed Calendly inline widget here */}
-              <span className="font-mono text-[0.78rem] uppercase tracking-[0.18em] text-graphite">
-                {`{{TODO: Calendly inline widget}}`}
-              </span>
+            <div className="mt-8 border border-line bg-fog rounded-[4px] p-8 md:p-12">
               <p className="text-[1.0625rem] leading-[1.55] text-graphite">
-                The Calendly widget will live in this block, sized to the narrow
-                column, with the same warm fog background and hairline border.
-                Until it&rsquo;s live, use the form below or email us directly
-                at{" "}
+                Email{" "}
                 <a
                   href="mailto:hello@labsystems.co"
                   className="text-ink underline decoration-line underline-offset-4 hover:decoration-ink"
                 >
                   hello@labsystems.co
-                </a>
-                .
+                </a>{" "}
+                with 2 or 3 times that suit you, and we&rsquo;ll confirm 1 by
+                reply.
               </p>
             </div>
           </MotionIn>

@@ -27,6 +27,7 @@ const columns: Column[] = [
       "Proposal generation",
       "Objection handling",
       "Email drafting",
+      "Outbound sequences and reply handling",
       "Competitive positioning",
     ],
   },
@@ -49,7 +50,7 @@ export function DailyUse() {
         <div className="flex flex-col gap-16">
           <div className="grid gap-8 md:grid-cols-[1fr_2fr] md:gap-20 items-end">
             <MotionIn>
-              <SectionLabel number="04" label="In daily use" />
+              <SectionLabel number="05" label="In daily use" />
             </MotionIn>
             <MotionIn>
               <Heading variant="h2" className="max-w-[22ch]">

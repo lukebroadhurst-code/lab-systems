@@ -27,31 +27,52 @@ export default function AboutPage() {
         </MotionIn>
 
         <MotionIn delay={0.1}>
-          <div className="mt-12 flex flex-col items-start gap-10 md:flex-row md:items-start md:gap-12">
-            <div className="shrink-0">
-              <div
-                aria-label="Founder portrait placeholder"
-                className="size-[160px] md:size-[200px] rounded-[4px] bg-fog border border-line flex items-center justify-center"
-              >
-                <span className="font-mono text-[0.78rem] uppercase tracking-[0.18em] text-graphite">
-                  {`{{TODO}}`}
-                </span>
-              </div>
-              <p className="mt-3 text-[0.85rem] text-graphite">
-                {`{{TODO: founder name & title}}`}
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-6 text-[1.1875rem] leading-[1.55] text-graphite">
-              <p>{`{{TODO: founder copy, paragraph 1. Why this exists. What problem you saw in the market that nobody else was solving. The trigger that turned an observation into a business.}}`}</p>
-              <p>{`{{TODO: founder copy, paragraph 2. What came before. The career, the projects, the work that earned the conviction to start this. Speak in plain terms about what you have shipped and what you learned.}}`}</p>
-              <p>{`{{TODO: founder copy, paragraph 3. What is next. The trajectory from the current consulting practice into the platform, and what you want the business to look like in three years.}}`}</p>
-            </div>
+          <div className="mt-12 flex flex-col gap-6 text-[1.1875rem] leading-[1.55] text-graphite max-w-[68ch]">
+            <p>
+              I build commercial engines: the outbound that books the meetings,
+              the frameworks that keep every proposal and message sharp, and the
+              AI tooling trained on both. The longest-running version powers
+              Rooost, a UK workforce accommodation company serving construction
+              and infrastructure contractors, where I run the commercial
+              function and where every framework on this site gets tested
+              against real buyers and real deadlines. LAB Systems exists because
+              that system kept turning out to be the product.
+            </p>
+            <p>
+              The conviction comes from range. I spent more than a decade
+              building brands of my own in music and events, where an audience
+              tells you within about 8 seconds whether the voice is true, before
+              turning that instinct commercial: paid search, CRM architecture,
+              cold outbound, pricing, and pitch rooms across construction,
+              infrastructure, recruitment, and logistics. The same stack now
+              runs in more than 1 business, including the pre-launch commercial
+              engine of a maternal health platform selling into enterprise HR.
+              When we document how your business sells, it&rsquo;s a practitioner
+              doing the documenting rather than a strategist who last shipped
+              anything in 2019.
+            </p>
+            <p>
+              The practice comes first: a small number of deep engagements where
+              the frameworks, the growth systems, and the AI infrastructure get
+              built side by side. Through 2026 the work productises into the
+              platform, the same system offered as a subscription. If you want
+              to know whether any of this works before you commit to a call, ask
+              me to show you a live one.
+            </p>
           </div>
         </MotionIn>
 
         <MotionIn delay={0.15}>
-          <div className="mt-16 hairline-t pt-8">
+          <div className="mt-12">
+            <p className="font-serif text-[1.25rem] leading-tight text-ink">
+              Luke Broadhurst
+            </p>
+            <p className="text-[0.95rem] text-graphite">Founder, LAB Systems</p>
+          </div>
+        </MotionIn>
+
+        <MotionIn delay={0.2}>
+          <div className="mt-12 hairline-t pt-8">
             <p className="text-[0.95rem] text-graphite">
               Direct line:{" "}
               <a

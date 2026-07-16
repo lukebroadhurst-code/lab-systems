@@ -9,26 +9,29 @@ export function Problem() {
       <Container>
         <div className="grid gap-12 md:grid-cols-[1fr_2fr] md:gap-20">
           <MotionIn>
-            <SectionLabel number="02" label="The problem" />
+            <SectionLabel number="03" label="The problem" />
           </MotionIn>
 
           <div className="flex flex-col gap-8 max-w-[760px]">
             <MotionIn>
               <Heading variant="h2">
-                Your teams are buried in content, and the brand keeps slipping.
+                The pipeline lives in 2 diaries, and the playbook lives in
+                someone&rsquo;s head.
               </Heading>
             </MotionIn>
 
             <MotionIn delay={0.05}>
               <p className="text-[1.1875rem] leading-[1.55] text-graphite">
-                Marketing teams burn hours on first drafts that never quite
-                sound right. Sales teams build proposals from scratch every
-                time because the playbook lives in someone&rsquo;s head.
-                Generic AI tools save time but strip the voice. Brand
-                guidelines exist somewhere on a shared drive, although nobody
-                refers to them. The cost shows up everywhere: in inconsistent
-                proposals, in onboarding that takes too long, in a director
-                who spends half their week rewriting the team&rsquo;s work.
+                Most mid-market companies run their commercial engine on memory.
+                Proposals get rebuilt from a blank page each time, in whatever
+                voice the writer had that morning. New business arrives through
+                referrals and 1 or 2 relentless salespeople, which works right
+                up until one of them leaves. Marketing produces drafts the MD
+                rewrites at the weekend, while the brand guidelines sit in a
+                shared drive folder last opened in January. Generic AI tools
+                speed all of this up and flatten the voice as they go. The cost
+                shows up as inconsistent proposals, slow onboarding, and a
+                pipeline that depends entirely on 2 people staying put.
               </p>
             </MotionIn>
           </div>
