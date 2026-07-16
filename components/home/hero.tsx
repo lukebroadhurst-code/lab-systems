@@ -69,17 +69,18 @@ export function Hero() {
 
           <MotionIn delay={0.05}>
             <Heading variant="display" as="h1">
-              Pipeline, playbooks, and the AI systems that{" "}
-              <em className="italic">run them.</em>
+              Your growth runs on memory.
+              <br />
+              We build the <em className="italic">system.</em>
             </Heading>
           </MotionIn>
 
           <MotionIn delay={0.1}>
             <p className="text-[1.1875rem] leading-[1.55] text-graphite max-w-[60ch]">
-              LAB Systems builds the commercial engine of a growing company:
-              outbound that books qualified meetings, frameworks that keep every
-              proposal and message sharp, and AI tooling trained on both. Built
-              with your team in 11 to 14 weeks, then handed over.
+              Outbound that books qualified meetings, playbooks that keep every
+              proposal and message sharp, and AI trained on both. LAB Systems
+              builds the commercial engine of a growing company, with your team,
+              in 11 to 14 weeks, then hands it over.
             </p>
           </MotionIn>
 
