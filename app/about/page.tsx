@@ -31,12 +31,12 @@ export default function AboutPage() {
             <p>
               I build commercial engines: the outbound that books the meetings,
               the frameworks that keep every proposal and message sharp, and the
-              AI tooling trained on both. The longest-running version powers
-              Rooost, a UK workforce accommodation company serving construction
-              and infrastructure contractors, where I run the commercial
-              function and where every framework on this site gets tested
-              against real buyers and real deadlines. LAB Systems exists because
-              that system kept turning out to be the product.
+              AI tooling trained on both. The longest-running version runs the
+              commercial engine at Rooost, a UK workforce accommodation company
+              serving construction and infrastructure contractors, where every
+              framework on this site has been tested against real buyers and
+              real deadlines. LAB Systems exists because that system kept turning
+              out to be the product.
             </p>
             <p>
               The conviction comes from range. I spent more than a decade
@@ -45,11 +45,11 @@ export default function AboutPage() {
               turning that instinct commercial: paid search, CRM architecture,
               cold outbound, pricing, and pitch rooms across construction,
               infrastructure, recruitment, and logistics. The same stack now
-              runs in more than 1 business, including the pre-launch commercial
-              engine of a maternal health platform selling into enterprise HR.
-              When we document how your business sells, it&rsquo;s a practitioner
-              doing the documenting rather than a strategist who last shipped
-              anything in 2019.
+              runs for more than 1 business, including Matresa, the pre-launch
+              commercial engine of a maternal health platform selling into
+              enterprise HR. When we document how your business sells,
+              it&rsquo;s a practitioner doing the documenting rather than a
+              strategist who last shipped anything in 2019.
             </p>
             <p>
               The practice comes first: a small number of deep engagements where

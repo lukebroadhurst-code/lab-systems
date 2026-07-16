@@ -81,7 +81,15 @@ export function WhoItsFor() {
           </div>
 
           <MotionIn delay={0.1}>
-            <p className="hairline-t pt-6 text-[0.95rem] text-graphite">
+            <p className="hairline-t pt-6 text-[1.0625rem] leading-[1.55] text-graphite">
+              We also build the first commercial engine for seed and
+              early-stage founders, the same way we do for established teams.
+              Matresa started pre-launch.
+            </p>
+          </MotionIn>
+
+          <MotionIn delay={0.15}>
+            <p className="text-[0.95rem] text-graphite">
               We stay out of regulated financial services and government.
             </p>
           </MotionIn>

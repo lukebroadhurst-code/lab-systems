@@ -12,12 +12,12 @@ export const metadata: Metadata = {
     template: "%s, LAB Systems",
   },
   description:
-    "Outbound engines, sales and brand frameworks, and custom AI tooling for UK companies of 50 to 500 people. Built with your team in 11 to 14 weeks, then handed over.",
+    "Outbound engines, sales and brand frameworks, and custom AI tooling for UK companies, from seed-funded startups to 500-person teams. Built with your team in 11 to 14 weeks, then handed over.",
   openGraph: {
     title:
       "LAB Systems | Revenue systems and AI infrastructure for the UK mid-market",
     description:
-      "Outbound engines, sales and brand frameworks, and custom AI tooling for UK companies of 50 to 500 people. Built with your team in 11 to 14 weeks, then handed over.",
+      "Outbound engines, sales and brand frameworks, and custom AI tooling for UK companies, from seed-funded startups to 500-person teams. Built with your team in 11 to 14 weeks, then handed over.",
     type: "website",
     locale: "en_GB",
   },

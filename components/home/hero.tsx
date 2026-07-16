@@ -30,7 +30,7 @@ export function Hero() {
 
           <MotionIn delay={0.1}>
             <p className="text-[1.1875rem] leading-[1.55] text-graphite max-w-[60ch]">
-              LAB Systems builds the commercial engine of a mid-market company:
+              LAB Systems builds the commercial engine of a growing company:
               outbound that books qualified meetings, frameworks that keep every
               proposal and message sharp, and AI tooling trained on both. Built
               with your team in 11 to 14 weeks, then handed over.
@@ -51,7 +51,7 @@ export function Hero() {
           <MotionIn delay={0.2}>
             <div className="hairline-t pt-4">
               <p className="text-[0.95rem] text-graphite">
-                For UK companies, 50 to 500 employees, £5M to £100M revenue.
+                For UK companies, from seed-funded startups to 500-person teams.
               </p>
             </div>
           </MotionIn>

@@ -4,6 +4,7 @@ import { Wordmark } from "./wordmark";
 
 const footerLinks = [
   { href: "/approach", label: "Approach" },
+  { href: "/work", label: "Work" },
   { href: "/platform", label: "Platform" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Book a call" },

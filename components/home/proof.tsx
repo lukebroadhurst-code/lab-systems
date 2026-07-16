@@ -1,6 +1,7 @@
 import { Container } from "@/components/container";
 import { Heading } from "@/components/heading";
 import { SectionLabel } from "@/components/section-label";
+import { Button } from "@/components/button";
 import { MotionIn } from "@/components/motion-in";
 
 export function Proof() {
@@ -15,23 +16,30 @@ export function Proof() {
           <div className="flex flex-col gap-8 max-w-[760px]">
             <MotionIn>
               <Heading variant="h2">
-                Built in-house before it was sold.
+                Already running in real businesses.
               </Heading>
             </MotionIn>
 
             <MotionIn delay={0.05}>
               <p className="text-[1.1875rem] leading-[1.55] text-graphite">
-                LAB Systems is run by an operator, and the stack is live in
-                working businesses today. At Rooost, a UK workforce accommodation
-                company serving construction and infrastructure clients, it runs
-                the whole commercial engine: paid search, HubSpot pipelines, cold
-                email and LinkedIn sequencing, and AI-produced sales collateral.
-                For a pre-launch maternal health platform selling into enterprise
-                HR, it built the outbound infrastructure and the commercial
-                strategy behind their founding-customer motion. The consultancy
-                sells the system after running it, which means the mistakes
-                arrive pre-made and the templates arrive pre-tested.
+                Built and run by an operator who has spent years inside
+                commercial teams, not slide decks. At Rooost, a UK workforce
+                accommodation company serving construction and infrastructure
+                contractors, the system runs the whole commercial engine: paid
+                search, HubSpot pipelines, cold email and LinkedIn sequencing,
+                and AI-produced sales collateral. For Matresa, a pre-launch
+                maternal health platform selling into enterprise HR, it built
+                the outbound infrastructure and the commercial strategy behind
+                their founding-customer motion.
               </p>
+            </MotionIn>
+
+            <MotionIn delay={0.1}>
+              <div>
+                <Button href="/work" variant="ghost" size="lg">
+                  Read the case studies
+                </Button>
+              </div>
             </MotionIn>
           </div>
         </div>
