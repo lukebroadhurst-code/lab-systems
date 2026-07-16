@@ -3,6 +3,7 @@ import { Demo } from "@/components/home/demo";
 import { Problem } from "@/components/home/problem";
 import { WhatWeBuild } from "@/components/home/what-we-build";
 import { DailyUse } from "@/components/home/daily-use";
+import { EngineViz } from "@/components/home/engine-viz";
 import { Proof } from "@/components/home/proof";
 import { Impact } from "@/components/home/impact";
 import { ApproachTeaser } from "@/components/home/approach-teaser";
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Problem />
       <WhatWeBuild />
       <DailyUse />
+      <EngineViz />
       <Proof />
       <Impact />
       <ApproachTeaser />

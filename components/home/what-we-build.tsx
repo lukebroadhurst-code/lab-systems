@@ -4,6 +4,23 @@ import { SectionLabel } from "@/components/section-label";
 import { MotionIn } from "@/components/motion-in";
 import { CornerTicks } from "@/components/corner-ticks";
 
+const icons = [
+  // Strategic Frameworks: a document
+  <svg key="i" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.4} aria-hidden>
+    <path d="M5 4h11l3 3v13H5z" />
+    <path d="M8 9h7M8 13h7M8 17h4" />
+  </svg>,
+  // Growth Systems: a signal
+  <svg key="ii" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.4} aria-hidden>
+    <path d="M3 12h5l2-5 4 14 2-6h5" />
+  </svg>,
+  // AI Infrastructure: a chip
+  <svg key="iii" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.4} aria-hidden>
+    <rect x="6" y="6" width="12" height="12" rx="1" />
+    <path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3" />
+  </svg>,
+];
+
 type Card = {
   number: string;
   title: string;
@@ -77,6 +94,7 @@ export function WhatWeBuild() {
               <MotionIn key={card.title} delay={i * 0.06}>
                 <article className="relative flex h-full flex-col gap-6 bg-paper p-8 md:p-10 border border-line rounded-[4px]">
                   <CornerTicks />
+                  <span className="text-graphite">{icons[i]}</span>
                   <div className="flex items-baseline gap-4">
                     <span className="font-mono text-[0.78rem] uppercase tracking-[0.18em] text-graphite">
                       {card.number}

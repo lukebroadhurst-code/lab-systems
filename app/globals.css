@@ -210,6 +210,27 @@
   background: var(--color-accent);
 }
 
+/* Pipeline funnel: animated stage fills */
+.engine-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 14%;
+  background: rgb(180 95 58 / 0.1);
+  border-right: 1px solid var(--color-accent);
+  animation: engine-fill 6s ease-in-out infinite;
+}
+@keyframes engine-fill {
+  0%,
+  100% {
+    width: 14%;
+  }
+  50% {
+    width: var(--to, 60%);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .engine-dot,
   .engine-pulse {
@@ -217,5 +238,9 @@
   }
   .engine-dot {
     transform: none;
+  }
+  .engine-fill {
+    animation: none;
+    width: var(--to, 60%);
   }
 }
