@@ -4,6 +4,7 @@ import { Heading } from "@/components/heading";
 import { SectionLabel } from "@/components/section-label";
 import { MotionIn } from "@/components/motion-in";
 import { ContactForm } from "@/components/contact-form";
+import { CornerTicks } from "@/components/corner-ticks";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -44,7 +45,8 @@ export default function ContactPage() {
           </MotionIn>
 
           <MotionIn delay={0.05}>
-            <div className="mt-8 border border-line bg-fog rounded-[4px] p-8 md:p-12">
+            <div className="relative mt-8 border border-line bg-fog rounded-[4px] p-8 md:p-12">
+              <CornerTicks />
               <p className="text-[1.0625rem] leading-[1.55] text-graphite">
                 Email{" "}
                 <a

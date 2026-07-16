@@ -5,6 +5,7 @@ import { Pill } from "@/components/pill";
 import { EarlyAccessForm } from "@/components/early-access-form";
 import { MotionIn } from "@/components/motion-in";
 import { MotionItem } from "@/components/motion-item";
+import { CornerTicks } from "@/components/corner-ticks";
 
 export const metadata: Metadata = {
   title: "Platform",
@@ -102,12 +103,14 @@ export default function PlatformPage() {
               Four modules.
             </Heading>
           </MotionIn>
-          <ol className="mt-12 flex flex-col">
+          <div className="relative mt-12 border border-line rounded-[4px] bg-paper px-6 md:px-10">
+            <CornerTicks />
+            <ol className="flex flex-col">
             {modules.map((m, i) => (
               <MotionItem
                 key={m.number}
                 delay={i * 0.05}
-                className="grid grid-cols-[auto_1fr] gap-x-8 gap-y-3 py-7 hairline-t"
+                className="grid grid-cols-[auto_1fr] gap-x-8 gap-y-3 py-7 hairline-t first:border-t-0 first:pt-2 last:pb-2"
               >
                 <span className="font-mono text-[0.85rem] text-graphite tabular-nums pt-2">
                   {m.number}
@@ -121,7 +124,8 @@ export default function PlatformPage() {
                 </p>
               </MotionItem>
             ))}
-          </ol>
+            </ol>
+          </div>
         </Container>
       </section>
 

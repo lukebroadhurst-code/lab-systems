@@ -2,6 +2,7 @@ import { Container } from "@/components/container";
 import { Heading } from "@/components/heading";
 import { SectionLabel } from "@/components/section-label";
 import { MotionIn } from "@/components/motion-in";
+import { CornerTicks } from "@/components/corner-ticks";
 
 type Card = {
   number: string;
@@ -74,7 +75,8 @@ export function WhatWeBuild() {
           <div className="grid gap-6 md:grid-cols-3">
             {cards.map((card, i) => (
               <MotionIn key={card.title} delay={i * 0.06}>
-                <article className="flex h-full flex-col gap-6 bg-paper p-8 md:p-10 border border-line rounded-[4px]">
+                <article className="relative flex h-full flex-col gap-6 bg-paper p-8 md:p-10 border border-line rounded-[4px]">
+                  <CornerTicks />
                   <div className="flex items-baseline gap-4">
                     <span className="font-mono text-[0.78rem] uppercase tracking-[0.18em] text-graphite">
                       {card.number}

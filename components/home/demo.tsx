@@ -6,6 +6,7 @@ import { Heading } from "@/components/heading";
 import { SectionLabel } from "@/components/section-label";
 import { Button } from "@/components/button";
 import { cn } from "@/lib/cn";
+import { CornerTicks } from "@/components/corner-ticks";
 import { presets, sampleBrand, type DemoPreset } from "@/lib/demo-presets";
 
 const STEP_MS = 16;
@@ -161,7 +162,8 @@ export function Demo() {
           {/* Before / after panels */}
           <div className="grid gap-5 md:grid-cols-2">
             {/* Generic */}
-            <div className="flex flex-col rounded-[4px] border border-line bg-fog p-6 md:p-8">
+            <div className="relative flex flex-col rounded-[4px] border border-line bg-fog p-6 md:p-8">
+              <CornerTicks />
               <span className="font-mono text-[0.72rem] uppercase tracking-[0.18em] text-graphite mb-4">
                 Generic AI
               </span>
@@ -174,10 +176,11 @@ export function Demo() {
             <div
               onClick={streaming ? skip : undefined}
               className={cn(
-                "flex flex-col rounded-[4px] border border-line border-l-2 border-l-accent bg-white p-6 md:p-8",
+                "relative flex flex-col rounded-[4px] border border-line border-l-2 border-l-accent bg-white p-6 md:p-8",
                 streaming && "cursor-pointer",
               )}
             >
+              <CornerTicks />
               <span className="font-mono text-[0.72rem] uppercase tracking-[0.18em] text-accent mb-4">
                 On-brand
               </span>
